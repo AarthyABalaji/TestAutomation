@@ -54,8 +54,7 @@ public WebDriver driver;
 
 	@When("^Click on Calculate$")
 	public void click_on_Calculate() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	 //   throw new PendingException();
+
 		
 		driver.findElement(By.id("ID_calculator")).click();
 	}
